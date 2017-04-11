@@ -1,0 +1,264 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (min-width : 1200px) {
+
+	.representation .services-wrapp-sm {
+		display: none;
+	}
+}
+
+
+/* Large Devices, Wide Screens */
+
+
+@media only screen and (max-width : 1200px) {
+
+	.our-product {
+		overflow: hidden;
+	}
+
+	.representation {
+		background-image: none;
+	}
+
+	.representation .services-wrapp-md {
+		display: none;
+	}
+
+	.representation .services-wrapp-sm {
+		padding-top: 40px;
+		text-align: center;
+	}
+
+	.representation .services-wrapp-sm img {
+		position: relative;
+		left: -33px;
+	}
+
+	.slider-acquaintance .slider-bg {
+		background: url("../img/slider-bg-sm.jpg") no-repeat center;
+	}
+
+	.acquaintance .slider-wrap {
+		width: 100%;
+	}
+	.acquaintance .slider-wrap h3 {
+		padding-top: 30px;
+	}
+
+	.acquaintance .slider-wrap h6 {
+		padding-bottom: 0;
+	}
+	
+	.brand-materials {
+		overflow: hidden;
+	}
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	header .free-degustation {
+		position: relative;
+		top: 50px;
+		-webkit-background-size: auto;
+		background-size: auto;
+	}
+
+	header .free-degustation h2 {
+		padding-top: 50px;
+		font-size: 28px;
+		line-height: 35px;
+	}
+
+	.our-product h2 {
+		padding-top: 40px;
+	}
+
+	.our-product .products {
+		margin-top: 20px;
+	}
+	.our-product .products img{
+		padding-top: 10px;
+	}
+	
+	.our-product .btn {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.slider-acquaintance .slider-bg {
+		background: none;
+		min-height: 200px;
+	}
+	.acquaintance .bg-sx-wrap {
+		background: url("../img/slider-bg-xs.jpg") no-repeat top center;
+		-webkit-background-size: cover;
+		background-size: cover;
+		min-height: 330px;
+
+	}
+
+	.acquaintance .slider-wrap {
+		max-width: 992px;
+		padding-right: 25px;
+		background-color: #073141;
+	}
+
+	.acquaintance .slider-wrap .text {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.stay-dealer {
+		background-image: none;
+	}
+
+	.stay-dealer:before {
+		display: block;
+		content: "";
+		position: relative;
+		top: -16px;
+		height: 42px;
+		width: 100%;
+		background: url(../img/bg-dealer-wave.png) repeat-x bottom;
+	}
+
+	.stay-dealer:after {
+		display: block;
+		content: "";
+		position: relative;
+		bottom: -16px;
+		height: 42px;
+		width: 100%;
+		background: url(../img/bg-dealer-wave.png) repeat-x top;
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+
+	.stay-dealer h2 {
+		padding-top: 45px;
+		margin-bottom: 20px;
+	}
+	
+	.stay-dealer {
+		text-align: center;
+	}
+
+	.stay-dealer .dealer-half-wrap {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.stay-dealer .btn{
+		margin-top: 20px;
+	}
+
+	.main-footer a.social {
+		margin-right: 10px;
+	}
+
+	.main-footer .contact-phone {
+		margin-left: 10px;
+	}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	.stay-dealer input {
+		width: 100%;
+	}	
+
+	.stay-dealer .btn{
+		width: 90%;
+	}
+
+	.brand-materials .brand-bg .brand-text-3 {
+		margin-left: 100px;
+		float: left;
+	}
+	
+	.main-footer {
+		text-align: center;
+	}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header .free-degustation h2 {
+		padding-top: 30px;
+	}
+
+	header .free-degustation .timer_item {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	header .free-degustation p.timer_item {
+		margin-right: 3px;
+		font-size: 14px;
+	}
+
+
+	.discount .timer_item {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.discount p.timer_item {
+		margin-right: 3px;
+		font-size: 14px;
+	}
+
+	.stay-dealer .our-phones {
+		width: 100%;
+	}
+
+	.stay-dealer .our-email {
+		width: 100%;
+	}
+
+	.stay-dealer .our-location {
+		width: 100%;
+	}
+
+	h2:after {
+		width: 90% !important;
+	}
+
+	.btn {
+		font-size: 10px;
+		width: 90%;
+	}
+
+	.representation .btn {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 25px;
+	}
+
+	.discount .btn {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.brand-materials .brand-bg .brand-text-1 {
+		padding-top: 20px;
+	}
+
+	.brand-materials .brand-bg .brand-text-4 {
+		margin-top: 10px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+

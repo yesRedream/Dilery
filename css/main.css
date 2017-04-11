@@ -1,0 +1,836 @@
+h2 {
+	font-size: 35px;
+	font-family: "Roboto Slab";
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	line-height: 55px;
+	text-align: center;
+	margin: 0;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #5c924b;
+	border: none;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	font-weight: regular;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+header {
+	width: 100%;
+	background: url("../img/header-bg.jpg") no-repeat center center;
+	background-size: cover;
+	height: 620px;  
+}
+
+
+header .contact-phone {
+	float: right;
+	margin: 30px 30px 0 0;
+}
+
+header .contact-phone a {
+	color: white;
+}
+
+header .contact-phone a:hover {
+	font-size: 14px;
+	text-decoration: none;
+	color: grey;
+}
+
+header .contact-phone a:after {
+	display: inline-block;
+	content: '';
+	height: 7px;
+	width: 7px;
+	border: 2px solid white;
+	border-left: none;
+	border-top: none;
+	transform: rotate(45deg);
+	position: relative;
+	top: -2px;
+	left: 8px;
+}
+
+header .contact-phone a:hover:after  {
+	border-color: grey;
+}
+
+header h1 {
+	font-size: 30px;
+	font-family: "Roboto Slab";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+}
+
+header .free-degustation {
+	background: url(../img/free-degustation.png) no-repeat center;
+	width: 100%;
+	background-size: cover;
+	height: 340px;
+	position: relative;
+	top: 200px;
+	font-style: "Roboto";
+	text-align: center;
+}
+
+header .free-degustation h2 {
+	padding-top: 50px;
+}
+
+header .free-degustation .timer_item {
+	display: inline-block;
+	font-size: 40px;
+	font-weight: medium;
+	line-height: 52px;
+}
+
+header .free-degustation p.timer_item {
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: light;
+	color: #7d7d7d;
+}
+
+header p b {
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: regular;
+}
+
+.our-product {
+	text-align: center;
+}
+
+.our-product h2 {
+	padding-top: 160px;
+}
+
+.our-product h2::after {
+	display: block;
+	content: "";
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 343px;
+	height: 7px;
+	background: url(../img/wave.png) no-repeat center;
+}
+
+.our-product .products {
+	margin-top: 100px;
+}
+
+.our-product .products img{
+	height: 320px;
+}
+
+.our-product .products h5 {
+	margin: 10px;
+	display: inline-block;
+	background-color: #920000;
+	color: #fff;
+	font-size: 18px;
+	font-family: "Roboto Slab";
+	font-weight: regular;
+	line-height: 22px;
+	padding: 4px 15px;
+}
+
+.our-product .products p {
+	margin: 10px;
+	font-size: 14px;
+	font-family: "Roboto";
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.our-product .btn {
+	margin-top: 80px;
+	margin-bottom: 65px;
+	padding-left: 27px;
+	padding-right: 27px;	
+}
+
+.representation {
+	width: 100%;
+	background: url(../img/bg-representation.png) no-repeat top;
+	background-color: #f5f5f5;
+}
+
+.representation:before {
+	display: block;
+	content: "";
+	position: relative;
+	top: -16px;
+	height: 16px;
+	width: 100%;
+	background: url(../img/bg-border.png) repeat-x top;
+}
+
+.representation:after {
+	display: block;
+	content: "";
+	position: relative;
+	bottom: -16px;
+	height: 16px;
+	width: 100%;
+	background: url(../img/bg-border.png) repeat-x top;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.representation h2.wave{
+	padding-top: 50px;
+}
+
+.representation h2.wave::after {
+	display: block;
+	content: "";
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 343px;
+	height: 7px;
+	background: url(../img/wave.png) no-repeat center;
+}
+
+.representation .services-wrapp-md {
+	padding-top: 75px;
+}
+
+.representation .services-wrapp-md img {
+	position: relative;
+}
+
+.representation .services-wrapp-md  p {
+	width: 220px;
+	font-size: 16px;
+	font-family: "Roboto";
+	color: rgb(0, 0, 0);
+	font-weight: light;
+	line-height: 22px;
+}
+
+.representation .services-wrapp-md  .service-1 img {
+	left: -142px;
+	top: 70px;
+}
+
+.representation .services-wrapp-md  .service-1 p {
+	padding-top: 87px;
+	padding-left: 15px;
+}
+
+.representation .services-wrapp-md .service-2 img {
+	left: -132px;
+	top: 20px;
+}
+
+.representation .services-wrapp-md .service-2 p {
+	padding-top: 45px;
+	padding-left: 20px;
+}
+
+.representation .services-wrapp-md .service-3 img {
+	left: -125px;
+	top: -5px;
+}
+
+.representation .services-wrapp-md .service-3 p {
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+.representation .services-wrapp-md .service-4 img {
+	left: 45px;
+	top: 15px;
+}
+
+.representation .services-wrapp-md .service-4 p {
+	position: relative;
+	text-align: right;
+	right: 53px;
+	top: 30px;
+
+}
+
+.representation .services-wrapp-md .service-5 img {
+	left: 47px;
+	top: -27px;
+}
+
+.representation .services-wrapp-md .service-5 p {
+	position: relative;
+	text-align: right;
+	right: 42px;
+	top: -7px;
+}
+
+.representation .services-wrapp-md .service-6 img {
+	left: 57px;
+	top: -67px;
+}
+
+.representation .services-wrapp-md .service-6 p {
+	position: relative;
+	text-align: right;
+	right: 40px;
+	top: -47px;
+}
+
+.representation .services-wrapp-md .service-7 img {
+	left: 132px;
+	top: 60px;
+}
+
+.representation .services-wrapp-md .service-8 img {
+	left: 140px;
+	top: 30px;
+}
+
+.representation .services-wrapp-md .service-8 p {
+	padding-top: 45px;
+	left: 50px;
+	text-align: right;
+	position: relative;
+}
+
+.representation .services-wrapp-md .service-9 img {
+	left: 50px;
+	top: -10px;
+}
+
+.representation .services-wrapp-md .service-9 p {
+	padding-top: 15px;
+	text-align: right;
+	padding-right: 45px;
+}
+
+.representation h2.get-26 {
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.representation .btn {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-left: 120px;
+	padding-right: 120px;
+	background-color: #920000;
+	margin-bottom: 45px;
+}
+
+.acquaintance h2 {
+	padding-top: 70px;
+}
+
+.acquaintance h2::after {
+	display: block;
+	content: "";
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 343px;
+	height: 7px;
+	background: url(../img/wave.png) no-repeat center;
+	margin-bottom: 40px;
+}
+
+.slider-acquaintance .slider-bg {
+	background: url("../img/slider-bg.jpg") no-repeat center;
+	min-height: 600px;
+}
+
+.acquaintance .slider-wrap {
+	padding-left: 45px;
+	font-family: "Roboto Condensed";
+	color: rgb(255, 255, 255);
+	max-width: 370px;
+}
+
+.acquaintance .slider-wrap h3 {
+	font-size: 24px;
+	font-weight: regular;
+	line-height: 26px;
+	margin: 0;
+	padding-top: 50px;
+}
+
+.acquaintance .slider-wrap h6 {
+	font-size: 14px;
+	font-weight: italic;
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+}
+
+.acquaintance .slider-wrap .text {
+	font-size: 16px;
+	font-weight: regular;
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+}
+
+.about-company h2 {
+	padding-top: 60px;
+}
+
+.about-company h2::after {
+	display: block;
+	content: "";
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 343px;
+	height: 7px;
+	background: url(../img/wave.png) no-repeat center;
+	margin-bottom: 40px;
+}
+
+.about-company p {
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.about-company img {
+	display: block;
+	margin: 45px auto 95px auto;
+	width: 100%;
+	height: auto;
+}
+
+.discount {
+	background: url("../img/discount-bg.jpg") no-repeat top;
+	min-height: 500px;
+	text-align: center;
+	color: white;
+}
+
+.discount h4 {
+	font-style: "Roboto Slab";
+	font-size: 120px;
+	line-height: 128px;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 100px;
+}
+
+.discount h5 {
+	font-style: "Roboto";
+	font-size: 25px;
+	line-height: 42px;
+	font-weight: medium;
+	margin: 0;
+}
+
+.discount  .timer_item {
+	display: inline-block;
+	font-size: 40px;
+	font-weight: medium;
+	line-height: 52px;
+}
+
+.discount  p.timer_item {
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: light;
+	color: #d6d3d2;
+}
+
+.discount .btn {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.brand-materials {
+	padding-top: 50px;
+
+}
+
+.brand-materials .brand-bg {
+	background: url("../img/brands-bg.jpg") no-repeat top center;
+	min-height: 450px;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.brand-materials .brand-bg h2 {
+	color: #fff;
+	padding-top: 60px;
+
+}
+
+.brand-materials .brand-bg h2::after {
+	display: block;
+	content: "";
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	width: 343px;
+	height: 7px;
+	background: url(../img/wave-white.png) no-repeat center;
+
+}
+
+.brand-materials .brand-bg h3 {
+	font-family: "Roboto Slab";
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 300;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.brand-materials .brand-bg .red-text-wrap {
+	padding: 5px;
+	background-color: #a00404;
+}
+
+.brand-materials .brand-bg .brand-text-1 {
+	padding-top: 70px;
+}
+
+.brand-materials .brand-bg .brand-text-2 {
+	margin-left: 65px;
+	padding-top: 0px;
+	display: inline-block;
+}
+
+.brand-materials .brand-bg .brand-text-3 {
+	margin-left: 290px;
+	float: left;
+}
+
+.brand-materials .brand-bg .brand-text-4 {
+	display: inline-block;
+	font-size: 60px;
+	padding: 15px;
+	padding-bottom: 17px;
+	position: relative;
+	top: -15px;
+	left: 15px;
+}
+.brand-materials .slider-brands {
+	text-align: center;
+}
+.brand-materials .slider-brands h5 {
+	margin: 10px;
+	display: inline-block;
+	background-color: #920000;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Roboto Slab";
+	font-weight: regular;
+	line-height: 16px;
+	padding: 4px 15px;
+}
+
+.brand-materials .slide-brands {
+	padding-top: 300px;
+}
+
+.brand-materials .slide-1 {
+	background: url("../img/brand-1.jpg") no-repeat center;
+}
+
+.brand-materials .slide-2 {
+	background: url("../img/brand-2.jpg") no-repeat center;
+}
+
+.brand-materials .slide-3 {
+	background: url("../img/brand-3.jpg") no-repeat center;
+}
+
+.brand-materials .slide-4 {
+	background: url("../img/brand-4.jpg") no-repeat center;
+}
+
+.brand-materials .btn-wrapper {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.brand-materials .btn {
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.stay-dealer {
+	background: url("../img/bg-dealer.png") no-repeat top center;
+	min-height: 653px;
+}
+
+.stay-dealer h2 {
+	padding-top: 55px;
+	margin-bottom: 65px;
+}
+
+.stay-dealer .dealer-half-wrap {
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.stay-dealer label {
+	padding-left: 15px;
+	font-family: "Roboto";
+	font-weight: regular;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1em;
+}
+
+.stay-dealer input {
+	height: 45px;
+	width: 460px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.stay-dealer .btn-wrap {
+	text-align: center;
+}
+
+.stay-dealer .btn{
+	margin-top: 60px;
+	width: 420px;
+}
+
+.stay-dealer h5,
+.stay-dealer h4 {
+	margin: 0;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0.04em;
+}
+
+.stay-dealer h5 {
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.stay-dealer .our-phones,
+.stay-dealer .our-email,
+.stay-dealer .our-location {
+	padding-left: 60px;
+}
+
+.stay-dealer .our-phones {
+	background: url("../img/smartphone.png") no-repeat left;
+}
+
+.stay-dealer .our-email {
+	background: url("../img/e-mail.png") no-repeat left;
+}
+
+.stay-dealer .our-location {
+	background: url("../img/placeholder.png") no-repeat left;
+}
+
+.our-inst {
+	text-align: center;
+	padding-top: 85px;
+}
+
+.our-inst .inst-wrap {
+	position: relative;
+	overflow: hidden;
+	height: 315px;
+	width: 100%;
+}
+
+.our-inst [class^="inst-pic"] {
+	border-style: solid;
+ 	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+  	box-shadow: 0px 0px 9px 0px rgba(0, 1, 1, 0.47);
+  	width: 310px;
+  	height: 309px;
+	display: inline-block;
+	position: absolute;
+	top: 30px;
+}
+
+
+.our-inst .inst-pic-1 {
+	background: url("../img/inst-pic-1.jpg") no-repeat top center;
+	top: 50px;
+	left: 50%;
+  	margin-left: -650px;
+  	z-index: 1;
+}
+
+.our-inst .inst-pic-2 {
+	background: url("../img/inst-pic-2.jpg") no-repeat top center;
+	top: 40px;
+	left: 50%;
+  	margin-left: -450px;
+	z-index: 2;
+}
+
+.our-inst .inst-pic-3 {
+	background: url("../img/inst-pic-3.jpg") no-repeat top center;
+	left: 50%;
+   	margin-left: -160px;
+	z-index: 3;
+}
+
+.our-inst .inst-pic-4 {
+	background: url("../img/inst-pic-4.jpg") no-repeat top center;
+	top: 40px;
+	right: 50%;
+  	margin-right: -450px;	
+  	z-index: 2;
+}
+
+.our-inst .inst-pic-5 {
+	background: url("../img/inst-pic-5.jpg") no-repeat top center;
+	top: 50px;
+	right: 50%;
+  	margin-right: -650px;
+	z-index: 1;
+}
+
+.main-footer {
+	background-color: #191919;
+}
+
+.main-footer .logo {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.main-footer .footer-links-wrap a {
+	display: inline-block;
+	font-family: "Open Sans";
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	color: #9f9f9f;
+	padding-bottom: 20px;
+	text-decoration: underline;
+}
+
+.main-footer .footer-links-wrap a:hover {
+	color: #fff;
+}
+
+.main-footer hr {
+	border: none; 
+    color: #9f9f9f;
+    background-color: #9f9f9f; 
+    height: 1px;
+}
+
+.main-footer .socials {
+	display: inline-block;
+}
+
+.main-footer .social-icon-wrap {
+	display: inline-block;
+	padding-bottom: 23px;
+}
+
+.main-footer a.social {
+	text-align: center;
+	line-height: 22px;
+	height: 22px;
+	width: 22px;
+	background-color: white;
+	border-radius: 50%;
+	display: block;
+	margin-right: 15px;
+}
+
+.main-footer a.social:hover {
+	background-color: grey;
+}
+
+
+.main-footer .contact-phone {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-footer .contact-phone a {
+	color: white;
+}
+
+.main-footer .contact-phone a:hover {
+	font-size: 14px;
+	text-decoration: none;
+	color: grey;
+}
+
+.main-footer .contact-phone a:after {
+	display: inline-block;
+	content: '';
+	height: 7px;
+	width: 7px;
+	border: 2px solid white;
+	border-left: none;
+	border-top: none;
+	transform: rotate(45deg);
+	position: relative;
+	top: -2px;
+	left: 8px;
+}
+
+.main-footer .contact-phone a:hover:after  {
+	border-color: grey;
+}
+
+.main-footer .text-wrap {
+	text-align: center;
+}
+
+.main-footer p {
+	font-family: "Roboto";
+	font-size: 16px;
+	color: #8c8c8c;
+	margin: 0;
+}
+
+.main-footer .develop-by-wrap {
+	float: right;
+}
+
+.main-footer .develop-by-wrap img,
+.main-footer .develop-by-wrap p {
+	display: inline-block;
+}
+
+.main-footer .develop-by-wrap img {
+	margin-left: 20px;
+}
