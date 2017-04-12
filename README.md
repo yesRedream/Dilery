@@ -1,3 +1,3 @@
 # Dilery
 
-yesredream.github.io/Dilery
+https://yesredream.github.io/Dilery
