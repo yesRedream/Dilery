@@ -47,10 +47,3 @@ $(document).ready(function(){
   });
 });
 
-$('.slider-brands').slick({
-  infinite: true,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/arrow-left.png'>",
-  nextArrow:"<img class='a-right control-c next slick-next' src='../img/arrow-right.png'>"
-});
